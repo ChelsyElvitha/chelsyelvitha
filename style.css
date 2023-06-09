@@ -1,0 +1,185 @@
+<style type=text/css>
+   
+body  {  
+height: 125vh;  
+margin-top: 80px;  
+padding: 50px;
+  padding-top: 50px;
+  padding-right: 100px;
+
+  padding-left: 100px;
+background-size: cover;  
+}   
+
+div.transbox {
+  margin: 10px;  background-color: #181349;
+  opacity: 0.9;
+}
+
+div.transbox h1 {
+  margin: 3%;
+  color: white;
+}
+
+div.transbox h3 {
+  margin: 10px;  
+  background-color: white;
+  opacity: 0.8;
+  border: 1px solid white;
+  padding-top: 80px;
+  padding-right: 80px;
+  padding-bottom: 80px;
+  padding-left: 80px;
+}
+
+div.transbox h6 {
+  margin: 10px;  
+  background-image: url("image/galaxy.jpg");
+  opacity: 1;
+  border: 1px solid white;
+  padding-top: 20px;
+  padding-right: 80px;
+  padding-bottom: 20px;
+  padding-left: 80px;
+}
+
+
+h1 {
+  opacity: 1;}
+
+h2 {
+  text-decoration-line: underline;
+  text-decoration-style: double;
+  text-decoration-color: #888fd0;
+}
+
+h9 {
+  text-size: 15px;
+}
+
+body.welcome {
+  background-image: url("image/galaxyfade.jpeg");
+  background-repeat: repeat;
+  background-attachment: fixed;  
+}
+
+body.about {
+  background-image: url("image/skypurple.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;  
+}
+/*
+body.achievements {
+  background-image: url("image/skystar.jepg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;  
+}
+
+body.entertainment {
+  background-image: url("image/forest.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;  
+}
+
+body.gallery {
+  background-image: url("image/forest.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;  
+}
+
+body.pets {
+  background-image: url("image/forest.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;  
+}*/
+
+table {
+  width: 70%;  color: black;
+  background-color: #CAE9F5;  border-collapse: collapse;
+}
+table, th, td {
+  border: 5px outset lightskyblue;}
+
+.details {  margin: 5%;
+  border: 3px outset white;
+  background-color: #CBC3E3;      text-align: left;
+  width: 90%;}
+
+img:hover {
+  opacity: 0.5;}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #080b1e;
+  color: white;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #080b1e;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #b2a1ce;
+  color: #080b1e;
+}
+
+.topnav a.active {
+  background-color: #b2a1ce;
+  color: white;
+}
+
+.blink {
+   animation: blinker 3.5s linear infinite;
+   color: blue;
+}
+   @keyframes blinker {
+   50% {
+   opacity: 0;
+}
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+</style>  
+
+ 

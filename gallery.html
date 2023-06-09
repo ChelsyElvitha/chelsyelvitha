@@ -1,0 +1,240 @@
+<html> 
+<style>
+@font-face {
+    font-family: customfont;
+    src: url(font/moonlight.ttf);
+}
+
+h6 {
+font-family: customfont;
+color: white;
+font-size: 150px;
+/*
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: blue;*/
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+</style>
+<head> 
+<title>GALLERY</title><link rel="icon" type="image/png" href="icon/title.png"/>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="about">
+<a name="Top_Page"> </a>
+<header>
+<div class="topnav">
+  <a class="active" href="index.html"><img src="icon/homeblack.png" width="20px"></a>
+  <a href="aboutme.html" target="blank">About Me</a>
+  <a href="education.html" target="blank">Education</a>
+  <a href="entertainment.html" target="blank">Entertainment</a>
+  <a href="gallery.html" target="blank">Gallery</a>
+  <a href="pets.html"target="blank">Pets</a>  
+</header>
+<hr color="#888fd0" size="3">
+
+<div class="transbox"> <center>
+  <h6>MY GALLERY</h6></div>
+  <center><h2>TW: Cringe overload. Judging is strictly prohibited.</h2>
+</div>
+
+<br><br><br>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+div.scroll-container {
+  background-color: #888fd0;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+</style>
+
+<h3>Food Gallery</h3>
+
+<div class="scroll-container">
+<img src="image/croissant.jpeg" width="200px">
+<img src="image/kfc.jpeg" width="200px">
+<img src="image/magnum.jpeg" width="200px">
+<img src="image/penang.jpeg" width="300px">
+<img src="image/tealive.jpeg" width="200px">
+<img src="image/junk.jpeg" width="200px">
+<img src="image/onigiri.jpeg" width="200px">
+<img src="image/corn.jpeg" width="230px">
+<img src="image/kolomee.jpeg" width="380px">
+<img src="image/mango.jpeg" width="200px">
+</div><br><br><br><br>
+
+<h3>Nature Gallery</h3>
+
+<div class="scroll-container">
+<img src="image/mirror.jpeg" width="200px">
+<img src="image/kimorugi.jpeg" width="200px">
+<img src="image/redsun.jpeg" width="200px">
+<img src="image/kinabalu.jpeg" width="200px">
+<img src="image/perak.jpeg" width="370px">
+<img src="image/lake.jpeg" width="300px">
+<img src="image/waterfall.jpeg" width="200px">
+</div><br><br><br><br>
+
+<h3>Animal Gallery</h3>
+
+<div class="scroll-container">
+<img src="image/bat.jpeg" width="300px">
+<img src="image/monkey.jpeg" width="300px">
+<img src="image/chicks.jpeg" width="300px">
+<img src="image/snek.jpeg" width="300px">
+<img src="image/rooster.jpeg" width="300px">
+<img src="image/cat.jpeg" width="600px">
+<img src="image/pup.jpeg" width="380px">
+<img src="image/peacock.jpeg" width="280px">
+<img src="image/fish.jpeg" width="400px">
+</div><br><br><br><br>
+
+<h3>Growth Gallery</h3>
+
+<div class="scroll-container">
+<img src="image/minik.jpeg" width="210px">
+<img src="image/crossleg.jpeg" width="190px">
+<img src="image/year5.jpeg" width="240px">
+<img src="image/form1.jpeg" width="500px">
+<img src="image/form4.jpeg" width="250px">
+<img src="image/formm4.jpeg" width="430px">
+<img src="image/march4.jpeg" width="200px">
+<img src="image/camp.jpeg" width="390px">
+<img src="image/kaamatan4.jpeg" width="380px">
+</div><br><br><br><br>
+
+<br><br><br><br><br><br><br><br><br><br><br>
+<body>
+    <div id="clockContainer">
+        <div id="hour"></div>
+        <div id="minute"></div>
+        <div id="second"></div>
+    </div>
+</body>
+
+</html>
+
+<style>
+    #clockContainer {
+    position: relative;
+    margin: auto;
+    height: 15vw;
+    /*to make the height and width responsive*/
+    width: 15vw;
+    background: url(image/clocka.png) no-repeat;
+    /*setting our background image*/
+    background-size: 106%;
+    }
+    
+    #hour,
+    #minute,
+    #second {
+    position: absolute;
+    background: #181349;
+    border-radius: 10px;
+    transform-origin: bottom;
+    }
+    
+    #hour {
+    width: 1.8%;
+    height: 25%;
+    top: 23%;
+    left: 48.85%;
+    opacity: 1;
+    }
+    
+    #minute {
+    width: 1.6%;
+    height: 30%;
+    top: 18%;
+    left: 50%;
+    opacity: 1;
+    }
+    
+    #second {
+    width: 1%;
+    height: 40%;
+    top: 8%;
+    left: 49.25%;
+    opacity: 1;
+    }
+</style>
+
+<script>
+    setInterval(() => {
+    d = new Date(); //object of date()
+    hr = d.getHours();
+    min = d.getMinutes();
+    sec = d.getSeconds();
+    hr_rotation = 30 * hr + min / 2; //converting current time
+    min_rotation = 6 * min;
+    sec_rotation = 6 * sec;
+    
+    hour.style.transform = `rotate(${hr_rotation}deg)`;
+    minute.style.transform = `rotate(${min_rotation}deg)`;
+    second.style.transform = `rotate(${sec_rotation}deg)`;
+    }, 1000);
+</script>
+<br><br><br><br><br>
+<a href="#Top_Page"> <img src="icon/arrowpurple.png" width="50px" align="right"></a>
+<br><br><br><br>
+<hr color="#888fd0" size="5">
+
+<footer>
+<font size="3"><sup>&#169;</sup> <h55>Designed by Chelsy Elvitha Ejin <br><br>
+Contact:<br>
+<p><a href="https://discordapp.com/channels/@me/Laventira#8047/"><img src="icon/discord.png" width="35px"></a>
+<a href="mailto:chelsyelvithaejin@gmail.com"><img src="icon/email.png" width="35px"></a>
+<a href="https://wa.me/139361004"><img src="icon/whatsappp.png" width="35px"></a>
+<a href="https://t.me/Laventira"><img src="icon/tele.png" width="35px"></a></p>
+</footer>
+
+</body> 
+</html>
